@@ -1,0 +1,90 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b4ac0dc55f5d5e45bc30cb544885e8e, type: 3}
+  m_Name: FonctionUtulitaire
+  m_EditorClassIdentifier: 
+  enemyType: 0
+  behaviourType: 0
+  detectionLayerMask:
+    serializedVersion: 2
+    m_Bits: 8
+  speed: 3
+  rotationSpeed: 3.5
+  angularSpeed: 120
+  acceleration: 7
+  stoppingDistance: 1.4
+  detectionAngle: 35
+  detectionLength: 10
+  chaseTimeAfterVisionLost: 3
+  patrolTime: 5
+  patrolDistance: 12
+  resetAiIfBuggedTime: 5
+  useNavMeshRotation: 1
+  shooting:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  Sprinting:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  maxStamina: 100
+  maxAmmo: 20
+  actionTime: 2.3
+  sprintAddedAmount: 3.5
+  shootingDelay: 1
+  staminaTickRate: 0.0493
+  requiredPrecentageToRestFromRunning: 0.105
+  requiredPrecentageToReload: 0.105
+  bulletPrefab: {fileID: 795884758463757584, guid: ae816553de83e1f4eb1987ef0535a1a7, type: 3}
+  bulletForce: 17
+  bulletUpwardForce: 1
